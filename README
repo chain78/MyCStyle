@@ -12,5 +12,9 @@
 
 
 将本地已存在项目repository上传到git服务器命令：
+HTTP:
 git remote add origin https://github.com/chain78/MyCStyle.git
+git push -u origin master
+SSH:
+git remote add origin git@github.com:chain78/MyCStyle.git
 git push -u origin master
